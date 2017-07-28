@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Coding With Jewelbots</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section></section>
+				<section id="title" data-background="img/jewelbotsLR.png">
+					<h1>Coding With Jewelbots</h1>
+					<h3>Jennifer Wadella</h3>
+				</section>
+				<section id="sponsors">SPONSORS</section>
+				<section id="me">
+					<h1>Jennifer Wadella</h1>
+					<h3><a href="http://twitter.com/likeOMGitsFEDAY">@likeOMGitsFEDAY</a></h3>
+					<ul>
+						<li class="fragment">JavaScript Developer</li>
+						<li class="fragment">Community Organizer</li>
+						<li class="fragment">Diversity Advocate</li>
+					</ul>
+				</section>
+				<section>
+					<h2>What Inspired this talk?</h2>
+					<p class="fragment">Repeatedly getting asked the question</p>
+					<p class="fragment"><i>"How do I get my daughter interested in coding?"</i></p>
+					<img src="img/dunno.gif" alt="" class="fragment">
+				</section>
+				<section id="whyarentgirlscoding">
+					<section id="codinglist">
+						<h2>Let's take a step back ...</h2>
+						<p class="fragment">Why AREN'T girls jumping into coding? </p>
+						<ul>
+							<li class="fragment"><a href="https://www.psychologytoday.com/blog/the-science-success/201101/the-trouble-bright-girls">Psychological Barriers</a></li>
+							<li class="fragment">Lack of encouragement &amp; role models</li>
+							<li class="fragment">Gender-based marketing</li>
+							<li class="fragment">Tech isn't 'made' for girls</li>
+							<li class="fragment">Societal pressures</li>
+						</ul>
+					</section>
+					<section id="brightgirls" data-background="img/brightgirls.png">
+					</section>
+					<section id="notrolemodel">
+						<h2>Not a Role Model</h2>
+						<img src="img/spacevstab.gif" alt="">
+					</section>
+					<section id="notforgirls">
+						<img class="plain" src="img/notforgirls.png" alt="">
+					</section>
+					<section id="gendermarketing">
+						<p>Girls are subjected to much higher scrutiny of their appearance, almost from birth. </p>
+						<p class="fragment small">This isn't changing anytime soon = (</p>
+					</section>
+				</section>
+				<section id="howtohelp">
+					<section id="helplist">
+						<h2>How to help</h2>
+						<ul>
+							<li class="fragment">Exposure to opportunities - yay Jewelbots!</li>
+							<li class="fragment">Positive Reinforcement - encourage hard work &amp; perseverance</li>
+							<li class="fragment">Female Role Models</li>
+							<li class="fragment">Help her wardrobe reflect her empowerment</li>
+						</ul>
+					</section>
+					<section id="simonegiertz">
+						<h2>Simone Giertz</h2>
+						<img src="img/simonegiertz1.gif" alt="">
+						<p class="fragment">"The Queen of Sh*tty Robots"</p>
+						<div class="fragment">
+							<p><i>or the more age-appropriate</i></p>
+							<p>"Queen of the Most Wonderfully Craptastic Machines"</p>
+						</div>
+					</section>
+					<section id="wardrobe" data-background="img/girlpowershirts.png">
+						<h2 class="fragment">Empowerment Gear</h2>
+						<ul>
+								<li class="fragment"><a href="http://oldnavy.gap.com/browse/category.do?cid=6072&sop=true&mlink=6027%2Cleftnav%2CLeft_Nav_g_Graphic_Tees&clink=leftnav">Old Navy Graphic Tees</a></li>
+								<li class="fragment"><a href="https://www.crossing-arrows.com/collections/graphic-tees">Crossing Arrows</a></li>
+						</ul>
+					</section>
+				</section>
+				<section id="whatarejewelbots" data-background="img/jewelbotsTL.png">
+					<section id="definition">
+						<h1>What are Jewelbots?</h1>
+						<p class="fragment"><i>Jewelbots are friendship bracelets for the iPhone era.
+							Technology-enabled jewelry for tween and teen girls, they’re a
+							means of communicating with friends by lighting up when a BFF
+							is near or buzzing to send messages to a pal across the school.</i></p>
+					</section>
+					<section id="sarachipps">
+						<h2>Created By</h2>
+						<img src="img/sarachips.png" class="plain" alt="">
+						<p>Sara Chipps</p>
+						<p class="small">Co Founder &amp; CEO</p>
+					</section>
+					<section id="features">
+						<h2>Features</h2>
+						<ul>
+							<li>Programmed via Arduino IDE</li>
+							<li>Uses C++</li>
+							<li>Encourages social coding</li>
+							<li>Forum community for support and ideas</li>
+							<li>Open source</li>
+						</ul>
+					</section>
+				</section>
+				<section id="setup">
+					<section data-background="img/jewelbotssetup.jpg">
+						<h2>Setup</h2>
+					</section>
+					<section id="needs">
+						<h2>You'll Need</h2>
+						<ul>
+							<li class="fragment">A Jewelbot Bracelet (w/ micro USB)</li>
+							<li class="fragment">A computer</li>
+							<li class="fragment">Arduino IDE</li>
+						</ul>
+					</section>
+					<section id="boards">
+						<h2>Getting the Jewelbot Boards</h2>
+						<ul>
+							<li>Preferences -> Additional Boards Manager URL</li>
+							<li>Paste
+								<pre><code data-trim data-noescape>
+									https://jewelbots.github.io/arduino-library/package_jewelbots_index.json,
+									https://jewelbots.github.io/arduino-firmware/package_jewelbots_firmware_index.json,
+									https://jewelbots.github.io/arduino-friendship/package_jewelbots_friendship_index.json
+								</code></pre></li>
+							<li>Click 'Ok' and restart IDE</li>
+							<li>-> Tools -> Board -> Board Manager</li>
+							<li>Find Jewelbots boards, install, and restart IDE</li>
+						</ul>
+					</section>
+				</section>
+				<section id="friendship">
+					<section id="mode" data-background="img/girlswithkits.jpg">
+						<h2>Friendship Mode!</h2>
+					</section>
+					<section id="firmwareupdate">
+						<img src="img/friendship.gif" alt="">
+						<p>First make sure your firmware is updated!</p>
+						<p class="fragment small"><i>(you can do this in firmware mode board by uploading a blank sketch)</i></p>
+					</section>
+					<section id="pairing" data-background="img/pairing.png">
+						<h2>To Pair your Jewelbots</h2>
+						<ul class="small">
+							<li class="fragment">Turn both on</li>
+							<li class="fragment">Hold down magic button for two seconds</li>
+							<li class="fragment">The lights will cycle white, then cycle colors</li>
+							<li class="fragment">Click the magic button on the color you want for your friendship!</li>
+							<li class="fragment">Both Jewelbots will then light up with chosen color!</li>
+						</ul>
+					</section>
+					<section id="messaging">
+						<h2>To Send Messages</h2>
+						<p>When on &amp; paired jewelbots will flash colors of nearby friends</p>
+						<ul class="small">
+							<li class="fragment">Click the button once to put into messaging mode</li>
+							<li class="fragment">Click the button on the color friend you want to message</li>
+							<li class="fragment">Press and hold the button for a short buzz or a long buzz to send to your friends!</li>
+							<li class="fragment">Create a secret code to decipher messages(hint: binary)</li>
+						</ul>
+					</section>
+				</section>
+				<section id="api">
+					<section id="explore" data-background="img/computerscreen.jpg">
+						<h2>Exploring the API</h2>
+					</section>
+					<section id="colorandposition">
+						<h3>Colors and Positioning</h3>
+						<img src="img/LED_image.jpg" alt="">
+						<p>RED, YELLOW, GREEN, CYAN, BLUE,  MAGENTA, WHITE </p>
+					</section>
+					<section id="leds">
+						<h3>LEDs</h3>
+						<pre><code data-trim data-noescape>
+							LED led;
+
+							led.turn_on_single(SW, GREEN);
+							led.turn_on_all(GREEN);
+							led.turn_off_single(NE);
+							led.turn_off_all();
+							led.flash_single(SE, BLUE, 1000);
+							led.flash_all(BLUE, 1000);
+						</code></pre>
+					</section>
+					<section id="animation">
+						<h3>LED Animations</h3>
+						<pre><code data-trim data-noescape>
+							Animation animation;
+
+							animation.rainbows();
+							animation.jewelbots_logo();
+							animation.breathe_single_color(GREEN);
+						</code></pre>
+					</section>
+					<section id="buzzer">
+						<h3>Buzzer</h3>
+						<pre><code data-trim data-noescape>
+							Buzzer buzz;
+
+							buzz.extra_short_buzz();
+							buzz.medium_buzz();
+							buzz.really_long_buzz();
+							buzz.custom_buzz(63, 500);
+							// This will buzz at 50% strength for 1/2 second.
+						</code></pre>
+					</section>
+					<section id="magicbutton">
+						<h3>Magic Button</h3>
+						<pre><code data-trim data-noescape>
+							void button_press(void){
+							  // Define what happens when the Magic Button is pressed quickly
+							  // (when the Jewelbot is not plugged into power)
+							}
+							void button_press_long(void) {
+							  // Define what happens when the Magic Button is held for 2 seconds
+							  // (when the Jewelbot is not plugged into power)
+							}
+							void charging_button_press(void) {
+							  // Define what happens when the Magic Button is pressed quickly
+							  // (when the Jewelbot is plugged into power)
+							}
+						</code></pre>
+					</section>
+					<section id="tipsandtricks">
+						<p>Test your code while you're charging!</p>
+						<pre><code data-trim data-noescape>
+							void setup() {
+								set_run_loop_charging();
+							}
+						</code></pre>
+						<p>Allow Ardiuno Code</p>
+						<pre><code data-trim data-noescape>
+							void setup() {
+								set_arduino_coding();
+							}
+						</code></pre>
+						<p>Print sting to monitor</p>
+						<pre><code data-trim data-noescape>
+							JWB_SERIAL("Debugging message.\n");
+						</code></pre>
+						<p>Print sting &amp; variable to monitor</p>
+						<pre><code data-trim data-noescape>
+							JWB_SERIAL_PRINTF("x = %u\n", x);
+						</code></pre>
+					</section>
+					<section id="friendsapi">
+						<h2>Friendship Library</h2>
+						<pre><code data-trim data-noescape>
+							see_red_friends()
+							see_green_friends()
+							see_blue_friends()
+							see_cyan_friends()
+						</code></pre>
+					</section>
+				</section>
+				<section id="letscode" data-background="img/jewelbotswrist.jpg">
+					<img src="img/wonderwoman2.gif" alt="">
+					<h2>Let's Code!</h2>
+				</section>
+				<section id="mentoring">
+					<h2>Jennifer's Rules of Mentoring</h2>
+					<ul>
+						<li class="fragment">Keep your hands OFF the keyboard</li>
+						<li class="fragment">Let her make mistakes</li>
+						<li class="fragment">Don't give her the answer, help her find it</li>
+						<li class="fragment">Teach her how to read the documentation</li>
+						<li class="fragment">Help her create diagrams of her ideas</li>
+						<li class="fragment">Be patient</li>
+					</ul>
+				</section>
+				<section id="resources">
+					<h2>Ongoing Learning Resources</h2>
+					<ul>
+						<li><a href="http://alpha.jewelbots.com/">Jewelbots Forums</a></li>
+						<li>STEM subscription boxes:
+							<a href="https://www.kiwico.com/tinker">Tinker Crate</a>,
+							<a href="https://bitsbox.com/">Bitsbox</a></li>
+						<li><a href="https://littlebits.cc/">Little Bits</a></li>
+						<li><a href="https://girlswhocode.com/start-a-club/">START a Girls Who Code Club</a></li>
+						<li><a href="http://coderdojokc.com/">CoderDojoKC</a> and <a href="http://codingandcupcakes.kcwomenintech.org/">Coding &amp; Cupcakes</a></li>
+					</ul>
+				</section>
+				<section id="questions">
+					<h1>Questions?</h1>
+					<img src="img/headtilt.gif" alt="">
+					<p>Slides available at: <a href="tehfedaykin.github.io/CodingWithJewelBots">tehfedaykin.github.io/CodingWithJewelBots</a></p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: true,
+				display: 'block',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
