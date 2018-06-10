@@ -30,17 +30,8 @@
 					<h2>Hacking Your Work Life __ Balance to Take Over the World</h2>
 					<h3>Jennifer Wadella</h3>
 				</section>
-				<section id="balancefail">
-					<img src="img/balancefail.gif" alt="falling down stairs">
-				</section>
-				<section id="wonderwoman">
-					<img src="img/wonderwoman1.gif" alt="Wonder Woman fighting">
-				</section>
-				<section id="sponsors">
-					<h2>Thanks to all our sponsors!</h2>
-				</section>
 				<section id="me">
-					<h1>Jennifer Wadella</h1>
+					<h2>Jennifer Wadella</h2>
 					<h3><a href="http://twitter.com/likeOMGitsFEDAY">@likeOMGitsFEDAY</a></h3>
 					<ul>
 						<li class="fragment">9-5 Software Engineer</li>
@@ -48,22 +39,37 @@
 						<li class="fragment">International Speaker</li>
 						<li class="fragment">Mentor</li>
 					</ul>
+					<p class="fragment small"> <img class="plain" src="img/mature.png" alt=""> <i>This talk may contain strong language, harsh truths, and serious passion.</i></p>
 				</section>
-				<section id="myprograms">
-						<h2>Programs I've launched</h2>
-						<img class="plain" src="img/programs.png" />
-						<aside class="notes">
-							KCWiT, CoderDojoKC, Midwest Dev Chat, Coding &amp; Cupcakes, Coding &amp; Cocktails
-						</aside>
+				<section id="balancefail">
+					<img class="plain" src="img/balancefail.gif" alt="falling down stairs">
 				</section>
-				<section id="breakingitdown">
-					<img src="img/triangle1.png" class="plain" alt="work life blank balance triangle">
+				<section id="wonderwoman">
+					<img class="plain" src="img/wonderwoman1.gif" alt="Wonder Woman fighting">
+				</section>
+				<section id="breakingitdown" data-transition="zoom">
+					<svg height="500" width="650" class="worklifebalancetriangle">
+						<defs>
+							<filter id="glow">
+					      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+					      <feMerge>
+					        <feMergeNode in="coloredBlur"/>
+					        <feMergeNode in="SourceGraphic"/>
+					      </feMerge>
+					    </filter>
+						</defs>
+				    <polygon points="310,100 110,400 510,400" class="triangle" />
+						<text text-anchor="middle" x="50" y="415" dx="0%" class="second-glow fragment grow">Work</text>
+						<text text-anchor="middle" x="310" y="80" dx="0%" class="first-glow fragment grow">Life</text>
+						<text text-anchor="middle" x="575" y="415" dx="0%" class="third-glow fragment grow">Blank</text>
+			  	</svg>
+					<!-- <img class="plain" src="img/triangle1.png" class="plain" alt="work life blank balance triangle"> -->
 				</section>
 				<!------------------------------------->
 				<section id="workdefinition">
 					<h2>Work</h2>
 					<p>Your trade - but mostly how you collect a paycheck.</p>
-					<img src="img/money.gif" alt="">
+					<img class="plain" src="img/money.gif" alt="">
 				</section>
 				<!-- <section id="work">
 					<ul>
@@ -86,7 +92,7 @@
 				<section id="lifedefinition">
 					<h2>Life</h2>
 					<p>Everything you do when you're not at work.</p>
-					<img src="img/home.gif" alt="">
+					<img class="plain" src="img/home.gif" alt="">
 				</section>
 				<!-- <section id="life">
 					<ul>
@@ -120,55 +126,45 @@
 				<!------------------------------------->
 				<section id="worktitle">
 					<h2>Your Work</h2>
-				</section>
-				<section id="job-execution">
-					<h3>Job Execution</h3>
-				</section>
-				<section id="skillupdating">
-					<h3>Skill Upgrading</h3>
-				</section>
-				<section id="managing">
-					<h3>Managing Others</h3>
-				</section>
-				<section id="meetingsemails">
-					<h3>Meetings, responding to emails, training, paperwork</h3>
+					<ul>
+						<li class="fragment">Job Execution</li>
+						<li class="fragment">Skill Upgrading</li>
+						<li class="fragment">Managing Others</li>
+						<li class="fragment">Meetings, responding to emails, training, paperwork</li>
+					</ul>
 				</section>
 				<!------------------------------------->
 				<section id="lifetitle">
 					<h2>Your Life</h2>
+					<ul>
+						<li class="fragment">Household Management</li>
+						<li class="fragment">Financial Planning</li>
+						<li class="fragment">Family</li>
+						<li class="fragment">Health</li>
+						<li class="fragment">Sleep</li>
+						<li class="fragment">Social Life</li>
+						<li class="fragment">Hobbies</li>
+						<li class="fragment">Relaxation</li>
+					</ul>
 				</section>
-				<section id="household">
-					<h3>Household Management</h3>
-					<p>Keeping a roof over your head</p>
+				<!------------------------------------->
+				<section id="blanktitle">
+					<h2>Your Blank</h2>
+					<ul>
+						<li class="fragment">Volunteering?</li>
+						<li class="fragment">Blogging?</li>
+						<li class="fragment">Public Speaking?</li>
+						<li class="fragment">Side Hustle?</li>
+						<li class="fragment">Managing a non-profit?</li>
+						<li class="fragment">Competitve sport?</li>
+						<li class="fragment">Open Source project/contribution?</li>
+					</ul>
 				</section>
-				<section id="financial-planning">
-					<h3>Financial Planning</h3>
-				</section>
-				<section id="family">
-					<h3>Family</h3>
-				</section>
-				<section id="health">
-					<h3>Health</h3>
-				</section>
-				<section id="sleep">
-					<h3>Sleep</h3>
-				</section>
-				<section id="social">
-					<h3>Social Life</h3>
-				</section>
-				<section id="hobbies">
-					<h3>Hobbies</h3>
-				</section>
-				<section id="relaxation">
-					<h3>Relaxation</h3>
-					<img src="img/amydrink.gif" alt="">
-				</section>
+				<!------------------------------------->
 				<section id="chart">
 					<h3>My work-life-blank plotted</h3>
 					<div id="basicScatter"></div>
 				</section>
-				<!------------------------------------->
-
 				<!------------------------------------->
 				<section id="strategies">
 					<h1>Strategies</h1>
@@ -176,16 +172,16 @@
 						<li>Prioritizing</li>
 						<li>Automating</li>
 						<li>Balancing</li>
-						<li>Finding Tools</li>
+						<li>Finding Tools & Processes</li>
 						<li>Recompensating</li>
 					</ul>
 				</section>
 				<!------------------------------------->
-				<section id="prioritizetitle">
+				<section id="prioritizetitle" data-transition="zoom">
 					<h1>Strategy #1: Prioritize</h1>
 				</section>
 				<section id="dwight-eisenhower">
-					<h2>Dwight D. Eisenhower</h2>
+					<h3>Dwight D. Eisenhower</h3>
 					<p>"I have two kinds of problems: the urgent and the important. The
 						urgent are not important, and the important are never urgent." </p>
 				</section>
@@ -198,7 +194,7 @@
 						</tr>
 						<tr>
 							<td class="td-title">
-								<div class="rotateLeft">Important</div>
+								<div class="rotateLeft"><span>Not</span> Important</div>
 							</td>
 							<td class="tl">
 								<h4>Quadrant of Necessity</h4>
@@ -248,7 +244,7 @@
 						nothing worse will happen to you the rest of the day.” - Mark Twain</p>
 				</section>
 				<section id="creativeflow">
-					<h2>Creative Workflow</h2>
+					<h3>What About Creative Workflow?</h3>
 					<img class="fragment plain" src="img/kanye-creative.gif" alt="">
 					<p class="fragment">Have a way to document creative thoughts as a placeholder</p>
 				</section>
@@ -258,62 +254,53 @@
 					<img class="fragment" src="img/twerk.gif" alt="twerking fail">
 					<p class="fragment">What can go wrong <i>WILL</i> go wrong</p>
 				</section>
-				<section id="preChaosChart">
-					<h3>normal life</h3>
-					<div id="preChaosScatter"></div>
-				</section>
 				<section id="chaosChart">
 					<h3>home catastrophe</h3>
 					<div id="chaosScatter"></div>
 				</section>
 					<!------------------------------------->
-				<section id="automatetitle">
+				<section id="automatetitle" data-transition="zoom">
 					<h2>Strategy #2: Automate</h2>
 					<p>Like devops IRL</p>
 				</section>
 				<section id="autopay">
-					<h2>Autopay</h2>
+					<h3>Autopay</h3>
+					<p>Eliminate the need to remember dates for bills.</p>
 				</section>
-				<section id="mealprep">
-					<h2>Meal Prep</h2>
-					<p>Cult of the Instant Pot</p>
-					<img src="img/instantpot.gif" alt="">
-				</section>
-				<section id="instantpot">
-					<img class="plain" src="img/instantpot.png" alt="">
-					<p>Buy me: <a href="https://www.amazon.com/Instant-Pot-Multi-Use-Programmable-Pressure/dp/B00FLYWNYQ/ref=sr_1_3?s=kitchen&ie=UTF8&qid=1528479068&sr=1-3&keywords=instant+pot">Instant Pot on Amazon</a> </p>
-				</section>
-				<section id="errandhacks">
-					<h2>Errand Hacks</h2>
+				<section id="communication">
+					<h3>Autocommunicate</h3>
 					<ul>
-						<li class="fragment">Avoid busy times</li>
-						<li class="fragment">Run errands when parents will be picking up their kids from school - my mom</li>
+						<li class="fragment">Create canned responses - <a href="https://amylynnandrews.com/how-to-use-email-templates-to-save-time/">tutorial for Gmail</a></li>
+						<li class="fragment">Proof your work with <a href="https://www.grammarly.com/">Grammarly</a> - Chrome/Safari extension</li>
+						<li class="fragment">Set reminders for on Slack notifications</li>
+						<li class="fragment"><a href="https://get.slack.help/hc/en-us/articles/224766507-To-do-lists-in-Slack-">Create todos</a> for yourself/team in Slack </li>
+						<li class="fragment">For everything else - <a href="https://ifttt.com/">IFTTT</a>, <a href="http://www.emailpet.com/">Emailpet</a>, & <a href="https://zapier.com/">Zapier</a></li>
 					</ul>
 				</section>
-				<section id="calendarhacks">
-					<h2>Calendar Hacks</h2>
+				<section id="marketing">
+					<h3>Automarket Yoself</h3>
 					<ul>
-						<li class="fragment">Reminders</li>
-						<li class="fragment">Share calendars between family members</li>
-						<li class="fragment"><a href="https://calendly.com/jennifer-wadella" target="_blank">Calendly</a></li>
-						<li class="fragment">Block off weeks around travel. </li>
+						<li class="fragment">Use social media tools to manage your content</li>
+						<li class="fragment">Set up <a href="https://www.google.com/alerts?">Google Alerts</a> for your name/company</li>
 					</ul>
 				</section>
-				<section id="emailhacks">
-					<h2>Email Hacks</h2>
+				<section id="autohome">
+					<h3>Autodomesticate</h3>
 					<ul>
-						<li class="fragment">Snooze feature - Inbox by Google</li>
-						<li class="fragment">Automate responses</li>
-						<li class="fragment">IFTTT</li>
+						<li class="fragment">Look into cleaning services</li>
+						<li class="fragment">Outsource lawncare projects</li>
+						<li class="fragment">Clean as you go</li>
+						<li class="fragment">Try a meal prep service - <a href="https://www.blueapron.com/">Blue Apron</a>, <a href="https://www.hellofresh.com/">Hello Fresh</a>, <a href="https://marleyspoon.com/">Marley Spoon</a> </li>
+						<li class="fragment">Get the monotonous items <span class="small">(toilet paper, paper towels, garbage bags, dog food, cat litter)</span> regularly shipped to you.</li>
 					</ul>
-				</section>
-				<section id="beforeAutomating">
-					<h3>life effort before automating</h3>
-					<div id="beforeAutomatingScatter"></div>
 				</section>
 				<section id="afterAutomating">
-					<h3>life effort after automating</h3>
+					<h4>life effort before/after automating</h4>
 					<div id="afterAutomatingScatter"></div>
+				</section>
+				<section id="afterAutomating2">
+					<h4>life effort before/after automating</h4>
+					<div id="afterAutomatingBar"></div>
 				</section>
 				<section id="find-redundancies">
 					<h3>Spend your time and energy on implemeting ideas & solving the big problems.</h3>
@@ -321,45 +308,63 @@
 				</section>
 
 				<!------------------------------------->
-				<section id="balancetitle">
+				<section id="balancetitle" data-transition="zoom">
 					<h2>Strategy #3: Find Balance</h2>
 				</section>
 				<section id="getsleep">
 					<h3>Get Enough Sleep</h3>
+					<ul>
+						<li class="fragment">Recovery - this is when your immune system releases
+							compounds called cytokine</li>
+						<li class="fragment">Aids in Hunger Management</li>
+						<li class="fragment">Memory - REM & slow wave sleep of sleep contribute to creative
+							thinking, procedural memory, long-term memories, and memory processing</li>
+					</ul>
+					<p><a href="https://sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need"></a></p>
+				</section>
+				<section id="getsleep2">
+					<h3>How to Get Enough Sleep</h3>
+					<ul>
+						<li class="fragment">Use a fitness tracker to monitor your sleep</li>
+						<li class="fragment">Avoid stimulants and lights before bed. </li>
+						<li class="fragment">For help falling asleep try audiobooks, apps, music, or white noise creators.</li>
+					</ul>
 				</section>
 				<section id="morningdogs">
-					<img src="img/morningdogs.gif" class="plain" alt="">
+					<img src="img/morningdogs.gif" class="plain" alt="" style="height:50%;width: 50%;">
 				</section>
 				<section id="productivehours">
 					<h3>Know Your Productive Hours</h3>
-					<p>Number of hours in a day isn't the problem,
+					<p class="fragment">The number of hours in a day isn't the issue ...
 						it's how many of those hours you feel productive during.</p>
 				</section>
 				<section id="fitness" data-background="img/4percent.jpg">
 				</section>
 				<section id="balancehealth">
-					<h2>Prioritize Your Health</h2>
+					<h3>Prioritize Your Health</h3>
+					<p class="small fragment">How you treat your body matters!</p>
+					<img class="plain fragment" src="img/visual-picture-of-happy-brain.jpg" alt="">
+					<p class="small fragment">"There's good epidemiological data to suggest that active people are less depressed than inactive people. And people who were active and stopped tend to be more depressed than those who maintain or initiate an exercise program,"
+						<br />- James Blumenthal, PhD, clinical psychologist at Duke University. </p>
 				</section>
 				<section id="sayno">
-					<h2>Learn to Say "No"</h2>
+					<h3>Learn to Say "No"</h3>
 					<img class="plain" src="img/wcs.gif" alt="">
 				</section>
 				<section id="removetoxic">
-					<h2>Remove Toxic Relationships</h2>
-					<img class="plain fragment" src="img/cardibye.gif" alt="">
-				</section>
-				<section id="eliminatestressors">
-					<h2>Eliminate Stressors</h2>
-					<img class="plain fragment" src="img/cardibannoyed.gif" alt="">
+					<h3>Remove Toxic Relationships</h3>
+					<div class="fragment">
+						<img class="plain" src="img/cardibye.gif" alt="">
+						<p class="small"><i>Do not set yourself on fire to keep someone else warm.</i> - a super wise person </p>
+					</div>
 				</section>
 				<section id="pushnotifications">
-					<h2>Turn Off Push Notifications.</h2>
+					<h3>Turn Off Push Notifications.</h3>
 					<img src="img/greysseriously.gif" class="plain" alt="">
 				</section>
 				<section id="getoffsocial">
-					<h2>Get the f*ck off Social Media.</h2>
-					<img src="img/hairflipfail.jpg" alt="Hair Flip fail">
-
+					<h3>Get the f*ck off Social Media.</h3>
+					<img class="fragment plain" src="img/hairflipfail.jpg" alt="Hair Flip fail">
 					<aside class="notes">
 						<p>Stop comparing yourself to everyone around you instead of
 							focusing on the unique qualities you have to offer.</p>
@@ -377,8 +382,12 @@
 						it is making the choice to build a life you don’t need to regularly escape from.</p>
 						<p>- <a href="https://thoughtcatalog.com/brianna-wiest/2017/11/this-is-what-self-care-really-means-because-its-not-all-salt-baths-and-chocolate-cake/">Brianna Wiest</a> </p>
 				</section>
+				<section id="eliminatestressors">
+					<h3>Identify & Minimize Stressors</h3>
+					<img class="plain fragment" src="img/cardibannoyed.gif" alt="">
+				</section>
 				<!------------------------------------->
-				<section id="toolstitle">
+				<section id="toolstitle" data-transition="zoom">
 					<h2>Strategy #5: Use Tools & Processes</h2>
 				</section>
 				<section id="hackprocess">
@@ -386,10 +395,95 @@
 				</section>
 				<section id="trello">
 					<h3>Trello for everything.</h3>
-					<p class="fragment">Just kidding. Kind of. <br />But find a tool that works for you.</p>
+					<div class="fragment">
+						<p>Just kidding. Kind of. <br />But find a tool that works for you.</p>
+						<a href="https://www.amazon.com/Fred-ROLLER-NOTES-Sticky-Note/dp/B00F8LA4AC/ref=as_li_ss_tl?ie=UTF8&qid=1520381885&sr=8-3&keywords=sticky+note+roll&linkCode=sl1&tag=margrown2-20&linkId=36330f01750175caf06605502a53d37b"><img class="plain" src="img/stickynote.jpg" alt="" style="height:50%;width: 50%;"></a>
+					</div>
+				</section>
+				<section id="calendarhacks1">
+					<h3>Calendar Hacks</h3>
+					<ul>
+						<li class="fragment">If it exists, block it on your calendar.</li>
+						<li class="fragment">Physically block out work hours for yourself.</li>
+						<li class="fragment">Share calendars between family members</li>
+						<li class="fragment">Use reminders & todos</li>
+						<li class="fragment">Block off weeks around travel. </li>
+						<li class="fragment"><a href="https://calendly.com/jennifer-wadella" target="_blank">Calendly</a></li>
+					</ul>
+				</section>
+				<section id="accountabilitybuddy">
+					<h3>Get an Accountability Buddy</h3>
+					<div class="fragment">
+						<p>Friend with shared __ interests? Great!</p>
+						<img class="plain" src="img/LeslieJonesGymBuddy.gif" alt="">
+					</div>
+					<p class="fragment">If not, create your own accountability buddy in Slack - <a href="https://ifttt.com/applets/177138p-automatically-post-a-daily-reminder-to-a-slack-channel">IFTTT recipe</a></p>
+				</section>
+				<section id="emailhacks">
+					<h3>Email Hacks</h3>
+					<ul>
+						<li class="fragment">Snooze feature - Inbox by Google 🙌</li>
+						<li class="fragment"><a href="https://mixmax.com/">Mixmax</a> - email tracking, automation, templating </li>
+						<li class="fragment"><a href="http://www.boomeranggmail.com/">Boomerang</a> - Snoozing, follow-up reminders for Gmail</li>
+						<li class="fragment"> <a href="https://unroll.me/">Unroll Me</a> - Declutter your inbox</li>
+					</ul>
+				</section>
+				<section id="jenniferemailhacks">
+					<h3>Jennifer's Email Hacks</h3>
+					<ul>
+						<li class="fragment">Want a response? Always conclude with a CTA and deadline</li>
+						<li class="fragment">Format your dates to be easy to remember - Day of week, date, time + timezone</li>
+						<li class="fragment">Make your emails easy to read - use lists, call out important info, line breaks are your friend.</li>
+					</ul>
+				</section>
+				<section id="mealprep">
+					<h3>Meal Prep</h3>
+					<ul>
+						<li class="fragment">Save time</li>
+						<li class="fragment">Remove decision making need/willpower</li>
+						<li class="fragment">Save money</li>
+						<li class="fragment">Easy portion control</li>
+						<li class="fragment">Better nutrition</li>
+						<li class="fragment">Easy calorie tracking</li>
+					</ul>
+					<p class="small fragment"><a href="https://www.nerdfitness.com/blog/why-you-should-be-planning-your-meals/">https://www.nerdfitness.com/blog/why-you-should-be-planning-your-meals/</a></p>
+				</section>
+				<section id="jennifersmealprep">
+					<h3>Jennifer's Mealprep hacks</h3>
+					<img src="img/instantpot.gif" alt="">
+				</section>
+				<section id="mealprephacks2">
+					<h3>Jennifer's Mealprep hacks</h3>
+					<ul>
+						<li class="fragment">Join the Cult of the <a href="https://www.amazon.com/Instant-Pot-Multi-Use-Programmable-Pressure/dp/B00FLYWNYQ/ref=sr_1_3?s=kitchen&ie=UTF8&qid=1528479068&sr=1-3&keywords=instant+pot">Instant Pot</a></li>
+						<li class="fragment"><a href="http://scoobysworkshop.com/calorie-calculator/">Calculate</a> your Macros</li>
+						<li class="fragment">Dump recipes in <a href="https://www.myfitnesspal.com/recipe_parser">MyFitnessPal</a> for easy calorie tracking</li>
+						<li class="fragment">Freeze meals for when you know you won't have time to mealprep. (I make <a href="https://www.bonappetit.com/test-kitchen/how-to/article/how-to-make-frozen-burritos">EFBs</a>)</li>
+						<li class="fragment">Subscribe to <a href="https://www.reddit.com/r/MealPrepSunday/">r/MealPrepSunday</a> </li>
+					</ul>
+				</section>
+				<section id="errandhacks">
+					<h3>Errand Hacks</h3>
+					<ul>
+						<li class="fragment">Avoid busy times</li>
+						<li class="fragment">Run errands when parents will be picking up their kids from school - my mom</li>
+						<li class="fragment">Use order ahead/pickup services when available</li>
+					</ul>
+				</section>
+				<section id="trainyourbrain">
+					<h3>Train your brain to go into </h3><h3 class="fragment grow">focus mode</h3>
+					<ul>
+						<li class="fragment">Use music - <a href="https://www.fastcompany.com/3030502/the-new-playlist-for-more-productive-work-video-game-soundtracks">The New Playlist For More Productive Work: Video Game Soundtracks</a> </li>
+						<li class="fragment">Remove distractions - <a href="https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji">Stay Focusd</a> & <a href="https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca/related?hl=en">Momentum</a> </li>
+						<li class="fragment">Physcially write down the things distracting you</li>
+						<li class="fragment">Clear your office & your desktop</li>
+					</ul>
+					<audio id="focusmusic">
+					  <source src="img/fez-Sync.mp3" type="audio/mpeg">
+					</audio>
 				</section>
 				<!------------------------------------->
-				<section id="recompensatetitle">
+				<section id="recompensatetitle" data-transition="zoom">
 					<h2>Strategy #6: Recompensate</h2>
 				</section>
 				<section id="recompensatedef">
@@ -417,6 +511,11 @@
 				<section id="birthday">
 					<h3>Take Your Birthday OFF</h3>
 					<p>🎂 🎂 🎂</p>
+					<img class="plain" src="img/birthdaytweet2.png" alt="">
+				</section>
+				<section id="hackprocesscontinue">
+					<h3>Make plans to take over the world</h3>
+					<img class="plain" src="img/theBrain.gif" alt="">
 				</section>
 				<section id="recap">
 					<h2>Recap: Strategies</h2>
@@ -429,13 +528,15 @@
 					</ul>
 				</section>
 				<section id="worklifeblankrotate">
-					<img src="img/triangle1.png"class="plain rotate" alt="work life blank balance triangle">
+					<!-- <img src="img/triangle1.png"class="plain flip" alt="work life blank balance triangle"> -->
+					<svg height="500" width="650" class="worklifebalancetriangle">
+				    <polygon points="310,100 110,400 510,400" class="triangle" />
+						<text x="280" y="80" class="first-glow">Life</text>
+						<text x="0" y="415" class="second-glow">Work</text>
+						<text x="530" y="415" class="third-glow">Blank</text>
+			  	</svg>
 				</section>
 				<!------------------------------------->
-				<section id="review">
-					<h2>Leave speakers feedback - it's how they get better!</h2>
-					<img class="plain" src="img/Evaluation.png" alt="">
-				</section>
 				<section id="questions">
 					<h1>Questions?</h1>
 					<img src="img/headtilt.gif" alt="">
@@ -444,10 +545,11 @@
 			</div>
 		</div>
 		<div class="twitter-overlay">
-			<span>@likeOMGitsFEDAY</span> <span>#hackyourbalance</span>
+			<span>@likeOMGitsFEDAY</span> <span>#hackyourbalance</span> <span>#NDCOslo</span>
 		</div>
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+		<script src="js/jquery.js"></script>
 		<script src="/node_modules/lodash/lodash.js"></script>
 		<!-- <script src="./node_modules/lodash.js" type="text/javascript"></script> -->
 		<script src="./node_modules/d3/dist/d3.min.js" type="text/javascript"></script>

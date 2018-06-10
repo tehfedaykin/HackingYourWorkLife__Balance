@@ -1531,6 +1531,10 @@ table.eisenhower {
 				margin: 0px auto;
 				display: inline-block;
 				transform: rotate(270deg);
+				transform-origin: 70% 20%;
+				span {
+					visibility: hidden;
+				}
 			}
 			ul {
 				font-size: 50%;
@@ -1573,3 +1577,55 @@ table.eisenhower {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.flip {
+    -webkit-animation:flipper 3s linear infinite;
+    -moz-animation:flipper 3s linear infinite;
+    animation:flipper 3s linear infinite;
+}
+@-moz-keyframes flipper {
+	0% { -moz-transform: rotateY(0deg); }
+	50% { -moz-transform: rotateY(180deg); }
+	100% { -moz-transform: rotateY(360deg); }
+}
+@-webkit-keyframes flipper {
+	0% { -webkit-transform: rotateY(0deg); }
+	50% { -webkit-transform: rotateY(180deg); }
+	100% { -webkit-transform: rotateY(360deg); }
+}
+@keyframes flipper {
+	0% { -webkit-transform: rotateY(0deg); transform:rotateY(0deg); }
+	50% { -webkit-transform: rotateY(180deg); transform:rotateY(180deg); }
+	100% { -webkit-transform: rotateY(360deg); transform:rotateY(360deg); }
+}
+
+#me {
+	p {
+		img {
+			display: inline-block;
+			vertical-align: middle;
+			height: 1.5em;
+		}
+	}
+}
+
+.worklifebalancetriangle {
+	polygon {
+		fill: transparent;
+		stroke: white;
+		stroke-width: 6;
+		transition: all 0.8s ease-in-out;
+	}
+	text {
+		fill: #fff;
+		&.fragment.grow.visible{
+			transform: scale(1) !important;
+  		filter: url(#glow);
+		}
+	}
+}
+
+.small {
+	font-size: 60% !important;
+}
