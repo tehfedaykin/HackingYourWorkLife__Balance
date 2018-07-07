@@ -1268,6 +1268,7 @@ body {
     margin-right: 2.5%;
     float: left; }
 
+<<<<<<< Updated upstream
 table.eisenhower tr td {
   padding: 0.65em;
   border: none; }
@@ -1301,6 +1302,46 @@ table.eisenhower tr td {
     transform: rotate(270deg); }
   table.eisenhower tr td ul {
     font-size: 50%; }
+=======
+table.eisenhower {
+  margin-left: -10% !important; }
+  table.eisenhower tr td {
+    padding: 0.65em;
+    border: none; }
+    table.eisenhower tr td.td-title {
+      padding: 0.25em;
+      font-size: 75%;
+      text-transform: uppercase; }
+    table.eisenhower tr td.tl {
+      border-top: 1px solid;
+      border-left: 1px solid;
+      border-right: 1px solid;
+      border-bottom: 1px solid; }
+    table.eisenhower tr td.tr {
+      border-top: 1px solid;
+      border-right: 1px solid;
+      border-bottom: 1px solid; }
+    table.eisenhower tr td.bl {
+      border-bottom: 1px solid !important;
+      border-left: 1px solid;
+      border-right: 1px solid; }
+    table.eisenhower tr td.br {
+      border-bottom: 1px solid !important;
+      border-right: 1px solid; }
+    table.eisenhower tr td h4 {
+      font-size: 65%;
+      text-align: center; }
+    table.eisenhower tr td .rotateLeft {
+      vertical-align: bottom;
+      margin: 0px auto;
+      display: inline-block;
+      transform: rotate(270deg);
+      transform-origin: 85% 25%; }
+      table.eisenhower tr td .rotateLeft span {
+        visibility: hidden; }
+    table.eisenhower tr td ul {
+      font-size: 50%; }
+>>>>>>> Stashed changes
 
 .color-work {
   fill: #c9f0e1; }
@@ -1328,3 +1369,190 @@ table.eisenhower tr td {
 @keyframes spin {
   100% {
     transform: rotate(360deg); } }
+<<<<<<< Updated upstream
+=======
+
+.flip {
+  animation: flipper 3s linear infinite; }
+
+@keyframes flipper {
+  0% {
+    transform: rotateY(0deg); }
+  50% {
+    transform: rotateY(180deg); }
+  100% {
+    transform: rotateY(360deg); } }
+
+#me p img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1.5em; }
+
+.worklifebalancetriangle polygon {
+  fill: transparent;
+  stroke: white;
+  stroke-width: 6;
+  transition: all 0.8s ease-in-out; }
+
+.worklifebalancetriangle text {
+  fill: #fff; }
+  .worklifebalancetriangle text.fragment.grow.visible {
+    transform: scale(1) !important;
+    -webkit-filter: url(#glow);
+            filter: url(#glow); }
+
+.small {
+  font-size: 60% !important; }
+
+#fitness h3 {
+  margin-bottom: 20%; }
+  #fitness h3 span {
+    font-size: 150%; }
+
+#fitness h4 {
+  font-size: 250%;
+  font-weight: bold; }
+
+#fitness .credit {
+  font-size: 60%;
+  opacity: .2; }
+
+#hours .flex-row {
+  display: -ms-flexbox;
+  display: flex; }
+  #hours .flex-row .flex-col {
+    -ms-flex: 1;
+        flex: 1; }
+    #hours .flex-row .flex-col h4 {
+      text-align: center;
+      margin-top: 30%; }
+    #hours .flex-row .flex-col .clock-wrapper {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      margin: 0px auto; }
+      #hours .flex-row .flex-col .clock-wrapper .clock {
+        min-height: 100%;
+        min-width: 100%;
+        background: white;
+        box-sizing: border-box;
+        border-radius: 100%;
+        border: 10px solid #67D2C8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; }
+        #hours .flex-row .flex-col .clock-wrapper .clock .top {
+          position: absolute;
+          width: 3px;
+          height: 8px;
+          background: #262626;
+          left: 0;
+          right: 0;
+          margin: 0 auto; }
+        #hours .flex-row .flex-col .clock-wrapper .clock .right {
+          position: absolute;
+          width: 8px;
+          height: 3px;
+          background: #262626;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto 0; }
+        #hours .flex-row .flex-col .clock-wrapper .clock .bottom {
+          position: absolute;
+          width: 3px;
+          height: 8px;
+          background: #262626;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: 0 auto; }
+        #hours .flex-row .flex-col .clock-wrapper .clock .left {
+          position: absolute;
+          width: 8px;
+          height: 3px;
+          background: #262626;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto 0; }
+        #hours .flex-row .flex-col .clock-wrapper .clock .center {
+          height: 10%;
+          width: 10%;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          background: #262626;
+          border-radius: 100%; }
+        #hours .flex-row .flex-col .clock-wrapper .clock .shadow {
+          height: 500px;
+          width: 500px;
+          position: absolute;
+          left: 167px;
+          top: 167px;
+          transform: rotate(135deg);
+          background: linear-gradient(transparent, rgba(0, 0, 0, 0.1)); }
+        #hours .flex-row .flex-col .clock-wrapper .clock .hour {
+          width: 5px;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          animation: time 60s infinite linear; }
+          #hours .flex-row .flex-col .clock-wrapper .clock .hour:before {
+            position: absolute;
+            content: "";
+            background: #262626;
+            height: 40%;
+            width: 5px;
+            top: 8%;
+            left: 0px; }
+        #hours .flex-row .flex-col .clock-wrapper .clock .minute {
+          width: 3px;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          animation: time 30s infinite linear; }
+          #hours .flex-row .flex-col .clock-wrapper .clock .minute:before {
+            position: absolute;
+            content: "";
+            background: #262626;
+            height: 30%;
+            width: 3px;
+            top: 18%;
+            left: 0px; }
+        #hours .flex-row .flex-col .clock-wrapper .clock .second {
+          width: 2px;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          animation: time 15s infinite linear; }
+          #hours .flex-row .flex-col .clock-wrapper .clock .second:before {
+            position: absolute;
+            content: "";
+            background: #fd1111;
+            height: 34%;
+            width: 2px;
+            top: 14%;
+            left: 0px; }
+
+@keyframes time {
+  to {
+    transform: rotate(360deg); } }
+
+#burnoutarticles a {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  text-decoration: underline; }
+>>>>>>> Stashed changes

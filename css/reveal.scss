@@ -1493,6 +1493,7 @@ body {
 }
 
 table.eisenhower {
+	margin-left: -10% !important;
 	tr {
 		td {
 			padding: 0.65em;
@@ -1531,6 +1532,7 @@ table.eisenhower {
 				margin: 0px auto;
 				display: inline-block;
 				transform: rotate(270deg);
+				transform-origin: 85% 25%;
 			}
 			ul {
 				font-size: 50%;
@@ -1573,3 +1575,235 @@ table.eisenhower {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.flip {
+    -webkit-animation:flipper 3s linear infinite;
+    -moz-animation:flipper 3s linear infinite;
+    animation:flipper 3s linear infinite;
+}
+@-moz-keyframes flipper {
+	0% { -moz-transform: rotateY(0deg); }
+	50% { -moz-transform: rotateY(180deg); }
+	100% { -moz-transform: rotateY(360deg); }
+}
+@-webkit-keyframes flipper {
+	0% { -webkit-transform: rotateY(0deg); }
+	50% { -webkit-transform: rotateY(180deg); }
+	100% { -webkit-transform: rotateY(360deg); }
+}
+@keyframes flipper {
+	0% { -webkit-transform: rotateY(0deg); transform:rotateY(0deg); }
+	50% { -webkit-transform: rotateY(180deg); transform:rotateY(180deg); }
+	100% { -webkit-transform: rotateY(360deg); transform:rotateY(360deg); }
+}
+
+#me {
+	p {
+		img {
+			display: inline-block;
+			vertical-align: middle;
+			height: 1.5em;
+		}
+	}
+}
+
+.worklifebalancetriangle {
+	polygon {
+		fill: transparent;
+		stroke: white;
+		stroke-width: 6;
+		transition: all 0.8s ease-in-out;
+	}
+	text {
+		fill: #fff;
+		&.fragment.grow.visible{
+			transform: scale(1) !important;
+  		filter: url(#glow);
+		}
+	}
+}
+
+.small {
+	font-size: 60% !important;
+}
+
+#fitness {
+	h3 {
+		margin-bottom: 20%;
+		span {
+			font-size: 150%;
+		}
+	}
+	h4 {
+		font-size: 250%;
+		font-weight: bold;
+	}
+	.credit {
+		font-size: 60%;
+		opacity: .2;
+	}
+}
+
+#hours {
+	.flex-row	{
+		display: flex;
+		.flex-col {
+			flex:1;
+			h4 {
+				text-align: center;
+				margin-top: 30%;
+			}
+			.clock-wrapper {
+				position: relative;
+				width:200px;
+				height:200px;
+				margin: 0px auto;
+				.clock {
+					min-height: 100%;
+					min-width: 100%;
+					background: white;
+					box-sizing: border-box;
+					border-radius: 100%;
+					border: 10px solid #67D2C8;
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					margin: auto;
+					.top {
+						position: absolute;
+						width: 3px;
+						height: 8px;
+						background: #262626;
+						left: 0;
+						right: 0;
+						margin: 0 auto;
+					}
+					.right {
+						position: absolute;
+						width: 8px;
+						height: 3px;
+						background: #262626;
+						top: 0;
+						bottom: 0;
+						right: 0;
+						margin: auto 0;
+					}
+					.bottom {
+						position: absolute;
+						width: 3px;
+						height: 8px;
+						background: #262626;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						margin: 0 auto;
+					}
+					.left {
+						position: absolute;
+						width: 8px;
+						height: 3px;
+						background: #262626;
+						top: 0;
+						bottom: 0;
+						left: 0;
+						margin: auto 0;
+					}
+					.center {
+						height: 10%;
+						width: 10%;
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 0;
+						bottom: 0;
+						margin: auto;
+						background: #262626;
+						border-radius: 100%;
+					}
+					.shadow {
+						height: 500px;
+						width: 500px;
+						position: absolute;
+						left: 167px;
+						top: 167px;
+						transform: rotate(135deg);
+						background: linear-gradient(transparent, rgba(#000, 0.1));
+					}
+					.hour {
+						width: 5px;
+						height: 100%;
+						position: absolute;
+						left: 0;
+						right: 0;
+						margin: 0 auto;
+						//animation: time 86400s infinite linear;
+						animation: time 60s infinite linear;
+						&:before {
+							position: absolute;
+							content: "";
+							background: #262626;
+							height: 40%;
+							width: 5px;
+							top: 8%;
+							left: 0px;
+						}
+					}
+					.minute {
+						width: 3px;
+						height: 100%;
+						position: absolute;
+						left: 0;
+						right: 0;
+						margin: 0 auto;
+						//animation: time 3600s infinite linear;
+						animation: time 30s infinite linear;
+						&:before {
+							position: absolute;
+							content: "";
+							background: #262626;
+							height: 30%;
+							width: 3px;
+							top: 18%;
+							left: 0px;
+						}
+					}
+					.second {
+						width: 2px;
+						height: 100%;
+						position: absolute;
+						left: 0;
+						right: 0;
+						margin: 0 auto;
+						//animation: time 60s infinite linear;
+						animation: time 15s infinite linear;
+						&:before {
+							position: absolute;
+							content: "";
+							background: #fd1111;
+							height: 34%;
+							width: 2px;
+							top: 14%;
+							left: 0px;
+						}
+					}
+				}
+			}
+
+			@keyframes time {
+				to {
+					transform: rotate(360deg);
+				}
+			}
+		}
+	}
+}
+
+#burnoutarticles {
+	a {
+		color: #fff;
+		text-shadow: 2px 2px #000;
+		text-decoration: underline;
+	}
+}
