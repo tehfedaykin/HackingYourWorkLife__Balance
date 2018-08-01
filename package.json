@@ -8,7 +8,9 @@
   "scripts": {
     "test": "grunt test",
     "start": "grunt serve",
-    "build": "grunt"
+    "build": "grunt",
+    "serve": "http-server",
+    "new-build": "webpack --progress --profile --colors"
   },
   "author": {
     "name": "Jennifer Wadella",
@@ -23,6 +25,8 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
     "express": "~4.14.0",
     "grunt": "~1.0.1",
     "grunt-autoprefixer": "~3.0.3",
@@ -36,9 +40,13 @@
     "grunt-retire": "~0.3.10",
     "grunt-sass": "~1.2.0",
     "grunt-zip": "~0.17.1",
+    "http-server": "^0.11.1",
     "mustache": "~2.2.1",
     "node-sass": "~3.13.0",
-    "socket.io": "^1.4.8"
+    "sass-loader": "^7.0.3",
+    "socket.io": "^1.4.8",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
   },
   "license": "MIT",
   "dependencies": {
