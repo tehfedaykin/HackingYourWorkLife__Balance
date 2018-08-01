@@ -2,6 +2,8 @@ import Taucharts from 'taucharts';
 import 'taucharts/dist/plugins/tooltip';
 import 'taucharts/dist/plugins/legend';
 
+import 'taucharts/dist/taucharts.min.css';
+
 var basicChart = undefined;
 var preChaosChart = undefined;
 var chaosChart = undefined;
