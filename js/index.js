@@ -1,6 +1,7 @@
 import Taucharts from 'taucharts';
 import 'taucharts/dist/plugins/tooltip';
 import 'taucharts/dist/plugins/legend';
+import _ from 'lodash';
 
 import 'taucharts/dist/taucharts.min.css';
 
