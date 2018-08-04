@@ -1532,14 +1532,10 @@ table.eisenhower {
 				margin: 0px auto;
 				display: inline-block;
 				transform: rotate(270deg);
-<<<<<<< HEAD
 				transform-origin: 70% 20%;
 				span {
 					visibility: hidden;
 				}
-=======
-				transform-origin: 85% 25%;
->>>>>>> master
 			}
 			ul {
 				font-size: 50%;
@@ -1547,6 +1543,53 @@ table.eisenhower {
 		}
 	}
 }
+
+table.competence {
+	font-size: 80%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 20%;
+	tr {
+		td {
+			padding: 0.65em;
+			border: none;
+			width: 50%;
+			&.tl {
+				border-top: 1px solid;
+				border-left: 1px solid;
+				border-right: 1px solid;
+				border-bottom: 1px solid;
+			}
+			&.tr {
+				border-top: 1px solid;
+				border-right: 1px solid;
+				border-bottom: 1px solid;
+			}
+			&.bl {
+				border-bottom: 1px solid !important;
+				border-left: 1px solid;
+				border-right: 1px solid;
+			}
+			&.br {
+				border-bottom: 1px solid !important;
+				border-right: 1px solid;
+			}
+			h4 {
+				font-size: 85%;
+				text-align: center;
+			}
+			p {
+				text-align: center;
+				&.callout {
+					font-size: 55%;
+					font-style: italic;
+					//text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
 
 .color-work {
 	fill: rgb(201, 240, 225);
@@ -1812,5 +1855,11 @@ table.eisenhower {
 		color: #fff;
 		text-shadow: 2px 2px #000;
 		text-decoration: underline;
+	}
+}
+
+#title {
+	h2, h3 {
+		text-shadow: 2px 2px 3px #000;
 	}
 }

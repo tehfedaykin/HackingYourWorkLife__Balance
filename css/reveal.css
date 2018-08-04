@@ -1268,44 +1268,6 @@ body {
     margin-right: 2.5%;
     float: left; }
 
-<<<<<<< Updated upstream
-table.eisenhower tr td {
-  padding: 0.65em;
-  border: none; }
-  table.eisenhower tr td.td-title {
-    padding: 0.25em;
-    font-size: 75%;
-    text-transform: uppercase; }
-  table.eisenhower tr td.tl {
-    border-top: 1px solid;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid; }
-  table.eisenhower tr td.tr {
-    border-top: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid; }
-  table.eisenhower tr td.bl {
-    border-bottom: 1px solid !important;
-    border-left: 1px solid;
-    border-right: 1px solid; }
-  table.eisenhower tr td.br {
-    border-bottom: 1px solid !important;
-    border-right: 1px solid; }
-  table.eisenhower tr td h4 {
-    font-size: 65%;
-    text-align: center; }
-  table.eisenhower tr td .rotateLeft {
-    vertical-align: bottom;
-    margin: 0px auto;
-    display: inline-block;
-    transform: rotate(270deg);
-    transform-origin: 70% 20%; }
-    table.eisenhower tr td .rotateLeft span {
-      visibility: hidden; }
-  table.eisenhower tr td ul {
-    font-size: 50%; }
-=======
 table.eisenhower {
   margin-left: -10% !important; }
   table.eisenhower tr td {
@@ -1339,12 +1301,45 @@ table.eisenhower {
       margin: 0px auto;
       display: inline-block;
       transform: rotate(270deg);
-      transform-origin: 85% 25%; }
+      transform-origin: 70% 20%; }
       table.eisenhower tr td .rotateLeft span {
         visibility: hidden; }
     table.eisenhower tr td ul {
       font-size: 50%; }
->>>>>>> Stashed changes
+
+table.competence {
+  font-size: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20%; }
+  table.competence tr td {
+    padding: 0.65em;
+    border: none;
+    width: 50%; }
+    table.competence tr td.tl {
+      border-top: 1px solid;
+      border-left: 1px solid;
+      border-right: 1px solid;
+      border-bottom: 1px solid; }
+    table.competence tr td.tr {
+      border-top: 1px solid;
+      border-right: 1px solid;
+      border-bottom: 1px solid; }
+    table.competence tr td.bl {
+      border-bottom: 1px solid !important;
+      border-left: 1px solid;
+      border-right: 1px solid; }
+    table.competence tr td.br {
+      border-bottom: 1px solid !important;
+      border-right: 1px solid; }
+    table.competence tr td h4 {
+      font-size: 85%;
+      text-align: center; }
+    table.competence tr td p {
+      text-align: center; }
+      table.competence tr td p.callout {
+        font-size: 55%;
+        font-style: italic; }
 
 .color-work {
   fill: #c9f0e1; }
@@ -1372,11 +1367,6 @@ table.eisenhower {
 @keyframes spin {
   100% {
     transform: rotate(360deg); } }
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> master
 
 .flip {
   animation: flipper 3s linear infinite; }
@@ -1409,8 +1399,6 @@ table.eisenhower {
 
 .small {
   font-size: 60% !important; }
-<<<<<<< HEAD
-=======
 
 #fitness h3 {
   margin-bottom: 20%; }
@@ -1563,5 +1551,6 @@ table.eisenhower {
   color: #fff;
   text-shadow: 2px 2px #000;
   text-decoration: underline; }
->>>>>>> Stashed changes
->>>>>>> master
+
+#title h2, #title h3 {
+  text-shadow: 2px 2px 3px #000; }
