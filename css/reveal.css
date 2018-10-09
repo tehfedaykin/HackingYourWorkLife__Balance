@@ -1554,3 +1554,42 @@ table.competence {
 
 #title h2, #title h3 {
   text-shadow: 2px 2px 3px #000; }
+
+.speaker-title {
+  display: -ms-flexbox;
+  display: flex; }
+  .speaker-title .flex-1 {
+    -ms-flex: 1;
+        flex: 1; }
+    .speaker-title .flex-1 .circle {
+      border-radius: 50%;
+      width: 60%; }
+  .speaker-title .flex-2 {
+    -ms-flex: 2;
+        flex: 2;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-align: center;
+        align-items: center; }
+
+.kc-overlay {
+  position: absolute;
+  top: 25%;
+  left: 35%; }
+
+#me .warning {
+  margin-top: 2em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  #me .warning img {
+    height: 1.5em;
+    margin: 0 .5em; }
+  #me .warning p {
+    line-height: 1.5em; }
+
+.smaller {
+  font-size: 60% !important; }
