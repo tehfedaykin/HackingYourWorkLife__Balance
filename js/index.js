@@ -651,10 +651,16 @@ Reveal.addEventListener('slidechanged', function( event ) {
 
 
   if (event.currentSlide.getAttribute('id') === 'trainyourbrain') {
-    document.getElementById('focusmusic').play();
+    var audioplayer = document.getElementById("focusmusic");
+
+    audioplayer.volume = 0.1;
+    console.log(audioplayer);
+    audioplayer.play();
   }
   else {
-    document.getElementById('focusmusic').pause();
+    var audioplayer = document.getElementById("focusmusic");
+
+    audioplayer.pause();
   }
 
   if(event.currentSlide.getAttribute('id') === 'worklifeblankrotate') {
