@@ -651,16 +651,16 @@ Reveal.addEventListener('slidechanged', function( event ) {
 
 
   if (event.currentSlide.getAttribute('id') === 'trainyourbrain') {
-    var audioplayer = document.getElementById("focusmusic");
+    // var audioplayer = document.getElementById("focusmusic");
 
-    audioplayer.volume = 0.1;
-    console.log(audioplayer);
-    audioplayer.play();
+    // audioplayer.volume = 0.1;
+    // console.log(audioplayer);
+    // audioplayer.play();
   }
   else {
-    var audioplayer = document.getElementById("focusmusic");
+    // var audioplayer = document.getElementById("focusmusic");
 
-    audioplayer.pause();
+    // audioplayer.pause();
   }
 
   if(event.currentSlide.getAttribute('id') === 'worklifeblankrotate') {
