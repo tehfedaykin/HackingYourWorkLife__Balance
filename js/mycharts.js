@@ -645,10 +645,10 @@
 
 
     if (event.currentSlide.getAttribute('id') === 'trainyourbrain') {
-      document.getElementById('focusmusic').play();
+      //document.getElementById('focusmusic').play();
     }
     else {
-      document.getElementById('focusmusic').pause();
+      //document.getElementById('focusmusic').pause();
     }
 
     if(event.currentSlide.getAttribute('id') === 'worklifeblankrotate') {
