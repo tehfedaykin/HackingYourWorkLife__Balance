@@ -1593,3 +1593,10 @@ table.competence {
 
 .smaller {
   font-size: 60% !important; }
+
+.col-container {
+  display: -ms-flexbox;
+  display: flex; }
+  .col-container .col {
+    -ms-flex: 1;
+        flex: 1; }

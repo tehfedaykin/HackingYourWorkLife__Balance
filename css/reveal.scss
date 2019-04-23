@@ -1905,3 +1905,10 @@ table.competence {
 .smaller {
 	font-size: 60% !important;
 }
+
+.col-container {
+	display: flex;
+	.col {
+		flex: 1;
+	}
+}
