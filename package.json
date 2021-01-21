@@ -45,7 +45,7 @@
     "mustache": "~2.2.1",
     "node-sass": "^4.9.2",
     "sass-loader": "^7.0.3",
-    "socket.io": "^1.4.8",
+    "socket.io": "^2.4.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0"
