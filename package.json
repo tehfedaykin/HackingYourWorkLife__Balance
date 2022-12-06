@@ -28,7 +28,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "css-loader": "^1.0.0",
-    "express": "~4.14.0",
+    "express": "~4.17.3",
     "grunt": "~1.0.1",
     "grunt-autoprefixer": "~3.0.3",
     "grunt-cli": "~1.2.0",
